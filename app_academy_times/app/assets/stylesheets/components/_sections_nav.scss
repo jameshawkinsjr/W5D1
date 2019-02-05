@@ -1,0 +1,16 @@
+.sections-nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 100px;
+}
+
+.sections-nav li {
+    margin: 5px;
+}
+.sections-nav li:hover {
+    background: $light-gray;
+}
+.sections-nav li:last-of-type {
+    text-decoration: underline;
+}
